@@ -6,13 +6,15 @@
     <ProjectGuid>8761974b-e3f0-43f2-bb9e-2cf8b55f4496</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>crawler.py</StartupFile>
+    <StartupFile>__main__.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>linkcrawler</Name>
     <RootNamespace>LinkCrawler</RootNamespace>
+    <InterpreterId>{0844483c-b70e-41be-96cc-7ce5b07a2ae7}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,12 +26,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="crawler.py" />
+    <Compile Include="downloader.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="link.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="spider.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="__main__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{0844483c-b70e-41be-96cc-7ce5b07a2ae7}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
