@@ -13,8 +13,9 @@
     <OutputPath>.</OutputPath>
     <Name>linkcrawler</Name>
     <RootNamespace>LinkCrawler</RootNamespace>
-    <InterpreterId>{0844483c-b70e-41be-96cc-7ce5b07a2ae7}</InterpreterId>
+    <InterpreterId>{32601da9-2185-4f78-9070-cb71c3f63492}</InterpreterId>
     <InterpreterVersion>3.5</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,7 +44,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="{0844483c-b70e-41be-96cc-7ce5b07a2ae7}\3.5" />
+    <InterpreterReference Include="{32601da9-2185-4f78-9070-cb71c3f63492}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

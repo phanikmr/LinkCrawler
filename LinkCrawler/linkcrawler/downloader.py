@@ -5,4 +5,4 @@ class Downloader(object):
         return super().__init__(**kwargs)
 
     def getContent(self, link):
-        return requests.get(link, verify=False)
+        return requests.get(link, verify=True)

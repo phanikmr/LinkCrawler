@@ -1,3 +1,5 @@
-class Link(object):
-    url = str 
-    status = bool
+class Link(object): 
+    crawled = False
+    res_code = int
+    extracted_links_count = int
+    attempts = 0
