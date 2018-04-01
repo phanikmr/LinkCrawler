@@ -5,7 +5,7 @@ extras_require = {}
 
 setup(
     name='LinkCrawler',
-    version=version,
+    version='1.0.0',
     url='https://github.com/phanikmr/LinkCrawle',
     description='A high-level Web Crawling and Web Scraping framework',
     long_description="""A LinkCrawler is a Python module that takes a url on the web (ex: http://python.org), 
@@ -23,7 +23,7 @@ setup(
     },
     classifiers=[
         'Framework :: LinkCrawler',
-        'Development Status :: 2-dev,
+        'Development Status :: 2-dev',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3.0',
