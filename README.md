@@ -25,7 +25,7 @@ with Crawler("https://www.python.org", output_path= "D://links.txt",LOG=Crawler.
      crawler.crawl()
      
 with Crawler("https://www.python.org", output_path= "D://links.txt",LOG=Crawler.INFO_LOG) as crawler:
-     for links in crawler.crawl_next()
+     for links in crawler.crawl_next():
           print(links)
           
 with Crawler("https://www.python.org", output_path= "D://links.txt",LOG=Crawler.DEBUG_LOG) as crawler:
