@@ -31,4 +31,3 @@ with Crawler("https://www.python.org", output_path= "D://links.txt",LOG=Crawler.
 with Crawler("https://www.python.org", output_path= "D://links.txt",LOG=Crawler.DEBUG_LOG) as crawler:
      crawler.crawl(1000)
 ```
-
