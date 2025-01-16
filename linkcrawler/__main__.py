@@ -56,5 +56,3 @@ with Crawler("https://www.google.com", LOG=Crawler.INFO_LOG) as crawler:
 #loop = asyncio.get_event_loop()
 #loop.run_until_complete(main())
 #print(default_timer()-start)
-
-# need to remove this line after testing
