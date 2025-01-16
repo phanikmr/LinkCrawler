@@ -7,3 +7,5 @@ class Downloader(object):
 
     def getContent(self, link):
         return requests.get(link, verify=self.verify)
+
+# new set of lines to test
